@@ -1,0 +1,165 @@
+.body {
+    font-family: 'Urbanist sans-serif';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/urbanist/v10/L0x-DF02iFML4hGCyMqrbS10ig.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+.Today {
+    margin-top: 120px;
+}
+
+.top {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.deals {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.line {
+    margin: 23px auto;
+    width: 258px;
+    border: 2px solid #ECA00D;
+}
+
+.my-carousel {
+    margin: 0 auto;
+    width: calc(100vw / 3);
+}
+
+.owl-item {
+
+    display: flex;
+    justify-content: center;
+}
+
+.item__img {
+    width: 301px;
+    height: 210px;
+    margin: 3px auto 0;
+}
+
+.item__img img {
+    width: 100%;
+    display: block;
+}
+
+.item {
+   height: 500px;
+    width: calc(100vw / 3);
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #D3C9C9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.item__text h3 {
+    margin-top: 7px;
+    margin: 48 0 26px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sary {
+    margin-top: -8px;
+}
+
+.fon {
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    padding-left: 25px;
+    padding: 50px;
+    margin-top: 50px;
+    height: 100vh;
+    background-image: url(../img/фон.jpg);
+
+}
+
+.line__fon {
+    margin: 2px;
+    width: 200px;
+    border: 1px solid #ECA00D;
+}
+
+.img__1 {
+    width: 430px;
+    height: 320px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.img__fon {
+    display: flex;
+}
+
+.text {
+
+    margin-left: 190px;
+    margin-top: 70px;
+    background-image: url(../img/Burana.jpg);
+    left: 986px;
+    top: 2387px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(15px);
+}
+
+.text h2 {
+    margin-top: 1px;
+    font-size: 25px;
+    line-height: 44px;
+    color: #FFE600;
+}
+
+.text p {
+    margin-top: -3px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.text {
+    width: 420px;
+    height: 310px;
+}
+
+.video-bg {
+    width: 430px;
+    height: 320px;
+    margin-top: 70px;
+}
+.container{
+margin-top: 50px;
+}
+.item__2{
+    height: 580px;
+    width: calc(100vw / 3);
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #D3C9C9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.kol{
+    margin-top: 50px;
+}
+/*Our clients experence*/
+.item__3{
+    height: 500px;
+    width: calc(100vw / 3);
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #D3C9C9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.karusel__1{
+    display: flex;
+}
+.karusel__2{
+    display: flex;
+}
