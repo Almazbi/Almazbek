@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.header{ 
+    background: #766257;
+    display: flex;
+    justify-content: space-between;
+    width: 1820px;
+    height: 100px;
+}
+.header__logo{
+    font-size: 35px;
+    padding: 36px 30px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.header__link{
+    margin-top: 34px;
+    font-size: 25px;
+    color:black
+    
+}
+.film{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 45px;
+    line-height: 45px;
+    padding-top: 60px;
+}
+.nav{
+    padding-top: 28px;
+}
+.wrapper{
+    margin-top: 63px;
+    display: flex;
+    column-gap: 34px;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+.card{
+    padding: 15px 10px 10px;
+    width: 20;
+    background: #766257; /* комент*/
+border-radius: 10px;
+    
+}
+.card-img{
+    height:px ;
+    border-radius: 10px;
+    overflow: hidden; /* края овалный*/
+}
+.card__info{
+    margin-top: 7px;
+    text-transform: capitalize;
+    font-weight: 500;
+ font-size: 18px;
+ line-height: 21px;
+}
+.card__name{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-weight: 700;
+ font-size: 25px;
+ line-height: 21px;
+}
+.card__btn{
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 200px;
+    height: 45px;
+    background: #54443B;
+    border-radius: 10px;
+    font-weight: 50;
+font-size: 20px;
+line-height: 20px;
+color: #FFFFFF;
+text-transform: capitalize;
+border: none;
+cursor: pointer;
+}
+.card-img img{
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+}
+.card h4{
+    font-size: 28px;
+    text-align: center;
+}
